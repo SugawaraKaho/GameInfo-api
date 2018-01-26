@@ -1,1 +1,1 @@
-"# GameInfo-api" 
+# GameInfo-api
