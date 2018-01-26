@@ -1,0 +1,3 @@
+package: GameInfo-api
+import:
+- package: github.com/labstack/echo
