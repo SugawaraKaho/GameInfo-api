@@ -1,0 +1,8 @@
+package: GameInfo-api
+import:
+- package: github.com/labstack/gommon
+  version: ^0.2.3
+  subpackages:
+  - color
+- package: github.com/labstack/echo
+  version: ^3.2.6
