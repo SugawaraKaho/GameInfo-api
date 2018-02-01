@@ -6,19 +6,16 @@ import (
 	"github.com/labstack/echo"
 )
 
-
 type User struct {
 	Name  string `json:"name"`
 	Email string `json:"email"`
 }
-
 
 func main() {
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
 	})
-
 
 	e.POST("/users", save)
 	e.GET("/users", getUser)
@@ -41,7 +38,5 @@ func save(c echo.Context) error {
 	c.Bind(user)
 
 	return c.JSON(http.StatusOK, user)
-
-	e.Logger.Fatal(e.Start(":1323"))
 
 }
