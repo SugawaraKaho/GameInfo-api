@@ -6,3 +6,7 @@ import:
   - color
 - package: github.com/labstack/echo
   version: ^3.2.6
+- package: github.com/derekparker/delve
+  version: ^1.0.0
+  subpackages:
+  - cmd/dlv

@@ -1,6 +1,10 @@
-hash: 4c9986df0b73b3ff2f1c4c25b23fe0c71cc1a68a951680eebf84df0f7fcd710a
-updated: 2018-01-27T03:02:03.0526276+09:00
+hash: ac6c01b7b4b8434f26c57306d929a7b1798d86e2868004ca613fb262bc019e01
+updated: 2018-03-01T02:05:07.963623+09:00
 imports:
+- name: github.com/derekparker/delve
+  version: 279a8a792e2748ba07be9ca15688d1871c0f1a5f
+  subpackages:
+  - cmd/dlv
 - name: github.com/labstack/echo
   version: b338075a0fc6e1a0683dbf03d09b4957a289e26f
 - name: github.com/labstack/gommon
